@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModelChoose</class>
+ <widget class="QDialog" name="ModelChoose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+     </property>
+     <property name="text">
+      <string>                自定义规则</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+       </property>
+       <property name="text">
+        <string>贴目数</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+       </property>
+       <property name="text">
+        <string>让子数</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="comboBox">
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton_ok">
+       <property name="minimumSize">
+        <size>
+         <width>180</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QPushButton:hover { 
+    background: rgb(150, 150, 150); 
+}
+QPushButton:pressed{ 
+    background: rgb(185, 185, 185); 
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+       </property>
+       <property name="text">
+        <string>以自定义规则开始</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+       </property>
+       <property name="text">
+        <string> 传统中国规则（黑棋先手贴三又四分之三子）</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_ok_2">
+       <property name="minimumSize">
+        <size>
+         <width>180</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	font: 9pt &quot;华文行楷&quot;;
+	font: 9pt &quot;隶书&quot;;
+    border-radius: 4px; 
+    border: none; 
+    width: 35px; 
+    height: 35px; 
+    color: rgb(28, 28, 28);
+    font: bold 25px;
+}
+
+QPushButton:hover { 
+    background: rgb(150, 150, 150); 
+}
+QPushButton:pressed{ 
+    background: rgb(185, 185, 185); 
+}
+
+QWidget { 
+    border: 1px solid &quot;#4F4F4F&quot;; 
+    background-color: &quot;#EEE5DE&quot;; 
+}</string>
+       </property>
+       <property name="text">
+        <string>以传统规则开始</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

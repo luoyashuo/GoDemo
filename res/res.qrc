@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Background1.jpg</file>
+        <file>Background2.jpg</file>
+        <file>Board1.jpg</file>
+        <file>Board2.png</file>
+        <file>BoardBackground1.jpg</file>
+        <file>res.qrc</file>
+        <file>WaterDrop.wav</file>
+        <file>icon1.png</file>
+        <file>luozi_music.wav</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>GoDemo围棋教学演示软件.ico</file>
+    </qresource>
+</RCC>
